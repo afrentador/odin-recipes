@@ -1,7 +1,36 @@
-div{
-    background-color: red;
+body{
+    background-color: yellow;
+}
+
+img{
+    height: 300px;
+    width: auto;
+}
+
+.titulo{
+    background-color: rgb(218, 12, 12);
     color: white;
     font-size: 32px;
     text-align: center;
+    font-weight: bold;
+}
+
+.impar{
+    background-color: rgb(255, 167, 167);
+    font-family: Verdana ,  "DejaVu Sans" , sans-serif;
+  }
+
+.ajuste-tamaño-de-fuente{
+    font-size: 24px ;
+  }
+
+
+#dos{
+    color: blue;
+    font-size: 36px;
+}
+
+#cuarto{
+    background-color: rgb(101, 227, 101);
     font-weight: bold;
 }
