@@ -1,19 +1,36 @@
+*/* {
+    border: 2px solid red;
+  }*/
 body{
-    background-color: yellow;
+    background-color: rgb(103, 203, 203);
 }
 
-img{
-    height: 300px;
-    width: auto;
+.avatar {
+    display: block;
+    height: auto;
+    width: 981px;
 }
 
-.titulo{
-    background-color: rgb(218, 12, 12);
+.avatar.lasagna,.carbonara,.siciliana{
+    display: inline-flex;
+    height: auto;    
+    width: 40px;
+}
+
+.titulo,.platos {
+    background-color:  rgb(14, 104, 104);
     color: white;
-    font-size: 32px;
+    font-size: 50px;
+    padding: 40px;
+    margin: auto;
     text-align: center;
     font-weight: bold;
 }
+ .boton{
+    background-color: rgb(0, 115, 255);
+    margin: 4px;
+    color: aliceblue;
+ }
 
 .impar{
     background-color: rgb(255, 167, 167);
@@ -33,4 +50,52 @@ img{
 #cuarto{
     background-color: rgb(101, 227, 101);
     font-weight: bold;
+}
+
+.clasico, .basico{
+    font-size: 28px;
+    font-family: Helvetica, "Times New Roman", sans-serif;
+}
+
+.clasico{
+    background-color: black;
+    color: white;
+}
+
+.basico{
+    background-color: yellow;
+}
+
+.contenedor .filas .tex{
+    background-color: yellow;
+    color: red;
+}
+
+#receta{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.boton-ingredientes{
+    background-color: green;
+    border-radius: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
+}
+
+.boton-preparado{
+    font-family: 'Franklin Gothic Medium';
+}
+
+.padre{
+    font-family: 'Franklin Gothic Medium';
+    font-size: 20px;
+}
+
+.padre .hijo{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 15px;
 }
